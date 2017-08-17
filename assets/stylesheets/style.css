@@ -1,0 +1,38 @@
+@font-face {font-family: Passero;src: url(../fonts/PasseroOne-Regular.ttf);}
+@font-face {font-family: Expressway;src: url(../fonts/Zerocalcare.ttf);}
+
+html,body{background:#FFF!important;overflow:hidden;}
+#tribe-chat-contain{}
+#tribe-chat-chatbox{margin-bottom:10px;height:calc(100% - 113px);overflow-y:scroll;margin-bottom:10px;}
+#tribe-chat-chatbox ul li{list-style:none;}
+#tribe-chat-chatbox ul li span.message-sep{padding-right:7px;padding-left:7px;}
+.single-message{position:relative;margin-top:17px;width:100%;float:left;}
+.single-message .single-mes-background{font-size:12px;color:#FFFFFF;background:#F27545;border-top-right-radius:50px;border-bottom-right-radius:50px;border-top-left-radius:50px;border-bottom-left-radius:15px;padding:7px;padding-left:20px;width:auto;float:left;padding-right:20px;}
+#tribe-chat-chatbox{}
+#tribe-chat-title{margin:0;padding-left:50px!important;position:relative;font-family:Expressway;color:#FFFFFF;font-size:35px;background:url(../images/campfire-banner.jpg);background-position:0% 90%;background-size:100% auto;padding:10px;position:relative;padding-bottom:15px;margin-left:-2px;}
+#tribe-chat-title .version{font-family:sans-serif;font-size:9px;font-weight:bold;position:absolute;left:53px;bottom:-3px;}
+#tribe-chat-message{}
+#tribe-chat-message input{border-radius:0px;position:absolute;bottom:-52px;;border:none;background:#ddd;height:46px;}
+#tribe-chat-message .btn{background:#FFF;cursor:pointer;color:#8F5C1B;font-family:Expressway;font-size:18px;border-radius:100px;}
+#tribe-chat-message .btn:hover{background:red;}
+.single-message .message-sender{position:absolute;bottom:-5px;font-size:9px;left:5px;}
+.single-message .message-sender-img{width:25px;height:25px;background:#000;border-radius:100px;border:solid 3px #fff;position:absolute;top:-10px;left:-10px;}
+#slider_main,#slider_right{float:left;}
+#slider_main{width:70%;position:relative;}
+#slider_right{border-right:solid 2px #ddd;height:100%;width:30%;background:#F7F7F7;position:relative;}
+#slider_right h3{color:#FFFFFF;width:100%;padding:12px;font-family:Expressway;}
+#tribe-chat-title img{width:32px;}
+#tribe-chat-title img{position:absolute;left:15px;top:21px;}
+#tribe-info-hold{height:20px;background:#000;}
+#search-tribes-people{border-top:none;border-right:none;border-left:none;border-radius:0px;}
+#user-prof-btn{border-radius:5px;;position:absolute;width:45px;height:45px;background:url(../images/user_male4-20.png);background-size:100% auto;background-position:0% 5px;background-repeat:no-repeat;background-color:#ddd;;right:12px;top:10px;border:solid 3px #FFF;}
+#search-tribes-people{background:url(../images/search-24.png) no-repeat;padding-left:35px;background-size:16px auto;background-position:10px 23px;background-color:#fff;height:67px;border:none;}
+#slider_right #context-tabs-left{background:#ddd;position:absolute;width:100%;bottom:0px;}
+#slider_right #context-tabs-left .tab{float:left;width:33.3%;border-top:solid 2px #ddd;background:#ddd;text-align:center;padding-bottom:10px;padding-top:10px;}
+#username-profile-label{position:absolute;right:70px;top:15px;}
+
+#firepit-message-animation{position:absolute;width:100%;height:3px;background:#000;bottom:46px;z-index:999;}
+
+.single-message.other-user .single-mes-background{position:relative;float:right;background:#ddd;color:#000;border-bottom-left-radius:50px;border-bottom-right-radius:10px;margin-right:20px;}
+.single-message.other-user .message-sender{left:auto;right:5px!important;}
+.single-message.other-user .message-sender-img{left:auto;right:-10px;}

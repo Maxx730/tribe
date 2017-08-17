@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Tribe Chat Prototype</title>
+        <link rel = "stylesheet" type = "text/css" href = "stylesheets/style.css"/>
+        <link rel = "stylesheet" type = "text/css" href = "stylesheets/skyblue.min.css"/>
+        <link rel = "stylesheet" type = "text/css" href = "stylesheets/animations.css"/>
+        <script type = "text/javascript" src = "js/jquery-3.2.1.min.js"></script>
+        <script type = "text/javascript" src = "js/socket.io.js"></script>
+        <script type = "text/javascript" src = "js/firepit_user.js"></script>
+        <script type = "text/javascript" src = "js/user_create.js"></script>
+        <script type = "text/javascript" src = "js/chat_engine.js"></script>
+        <script type = "text/javascript" src = "js/authenication_handler.js"></script>
+        <script type = "text/javascript" src = "js/load_animator.js"></script>
+        <script type = "text/javascript" src = "js/init.js"></script>
+    </head>
+    <body>
+        <div id = "firepit-message-animation"></div>
+        <div id = "slider_right">
+            <input type = "text" class = "form-control" id = "search-tribes-people" placeholder = "Search"/>
+
+            <div id = "context-tabs-left">
+                <div class = "tab selected">Tab 1</div>
+                <div class = "tab">Tab 2</div>
+                <div class = "tab">Tab 3</div>
+            </div>
+        </div>
+        <div id = "slider_main">
+            <h3 id = "tribe-chat-title"><img class = "" src = "images/logos.png"/>Firepit<span class = "version">v0.01 Alpha</span><div id = "username-profile-label">Username</div><div id = "user-prof-btn"></div></h3>
+            <div id = "tribe-chat-contain">
+                <div id = "chat-left">
+                    <div id = "tribe-chat-chatbox">
+                        <ul id = "chatbox-view" class = "form-control"></ul>
+                        <div id = "typing-animation">
+                            
+                        </div>
+                    </div>
+                    <div id = "tribe-chat-message">
+                        <input class = "form-control" type = "text" id = "new-message-content" placeholder = "Type message here...">
+</input>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
