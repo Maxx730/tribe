@@ -1,28 +1,7 @@
 @font-face {font-family: Passero;src: url(../fonts/PasseroOne-Regular.ttf);}
 @font-face {font-family: Expressway;src: url(../fonts/Zerocalcare.ttf);}
+@font-face {font-family: Kalos;src: url(../fonts/Ubuntu-R.ttf);}
 
-html,body{background:#FFF!important;overflow:hidden;}
-#tribe-chat-contain{}
-#tribe-chat-chatbox{margin-bottom:10px;height:calc(100% - 113px);overflow-y:scroll;margin-bottom:10px;}
-#tribe-chat-chatbox ul li{list-style:none;}
-#tribe-chat-chatbox ul li span.message-sep{padding-right:7px;padding-left:7px;}
-.single-message{position:relative;margin-top:17px;width:100%;float:left;}
-.single-message .single-mes-background{font-size:12px;color:#FFFFFF;background:#F27545;border-top-right-radius:50px;border-bottom-right-radius:50px;border-top-left-radius:50px;border-bottom-left-radius:15px;padding:7px;padding-left:20px;width:auto;float:left;padding-right:20px;}
-#tribe-chat-chatbox{}
-#tribe-chat-title{margin:0;padding-left:50px!important;position:relative;font-family:Expressway;color:#FFFFFF;font-size:35px;background:url(../images/campfire-banner.jpg);background-position:0% 90%;background-size:100% auto;padding:10px;position:relative;padding-bottom:15px;margin-left:-2px;}
-#tribe-chat-title .version{font-family:sans-serif;font-size:9px;font-weight:bold;position:absolute;left:53px;bottom:-3px;}
-#tribe-chat-message{}
-#tribe-chat-message input{border-radius:0px;position:absolute;bottom:-52px;;border:none;background:#ddd;height:46px;}
-#tribe-chat-message .btn{background:#FFF;cursor:pointer;color:#8F5C1B;font-family:Expressway;font-size:18px;border-radius:100px;}
-#tribe-chat-message .btn:hover{background:red;}
-.single-message .message-sender{position:absolute;bottom:-5px;font-size:9px;left:5px;}
-.single-message .message-sender-img{width:25px;height:25px;background:#000;border-radius:100px;border:solid 3px #fff;position:absolute;top:-10px;left:-10px;}
-#slider_main,#slider_right{float:left;}
-#slider_main{width:70%;position:relative;}
-#slider_right{border-right:solid 2px #ddd;height:100%;width:30%;background:#F7F7F7;position:relative;}
-#slider_right h3{color:#FFFFFF;width:100%;padding:12px;font-family:Expressway;}
-#tribe-chat-title img{width:32px;}
-#tribe-chat-title img{position:absolute;left:15px;top:21px;}
 #tribe-info-hold{height:20px;background:#000;}
 #search-tribes-people{border-top:none;border-right:none;border-left:none;border-radius:0px;}
 #user-prof-btn{border-radius:5px;;position:absolute;width:45px;height:45px;background:url(../images/user_male4-20.png);background-size:100% auto;background-position:0% 5px;background-repeat:no-repeat;background-color:#ddd;;right:12px;top:10px;border:solid 3px #FFF;}
@@ -36,3 +15,37 @@ html,body{background:#FFF!important;overflow:hidden;}
 .single-message.other-user .single-mes-background{position:relative;float:right;background:#ddd;color:#000;border-bottom-left-radius:50px;border-bottom-right-radius:10px;margin-right:20px;}
 .single-message.other-user .message-sender{left:auto;right:5px!important;}
 .single-message.other-user .message-sender-img{left:auto;right:-10px;}
+
+html.login-page,html.login-page body{background:#282828;}
+#login-container{width:600px;height:900px;background-size:100% auto;background-repeat:no-repeat;margin:0 auto;}
+#login-container h1{font-family:'Expressway';font-size:3em;color:#FFF;}
+#login-container h1 img{width:35px;margin-bottom:-5px;}
+#login-container input{border:solid 1px #333333;font-family:Kalos;-moz-box-shadow:    inset 0 0 10px #000000;-webkit-box-shadow: inset 0 0 30px #000000;box-shadow:inset 0 0 10px #000000;width:100%;padding:10px;border-radius:100px;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#111111+0,333333+100 */
+background: #111111; /* Old browsers */
+background: -moz-linear-gradient(top, #111111 0%, #333333 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #111111 0%,#333333 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #111111 0%,#333333 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111111', endColorstr='#333333',GradientType=0 ); /* IE6-9 */color:#fff;width:50%;padding-left:32px;font-size:18px;}
+#login-container input:focus{outline:none;opacity:1;color:#FFF;}
+
+.center-content{width:auto;text-align:center;}
+.push-down{margin-top:12px;}
+#login-btn{width:50%;}
+
+
+
+.sign-up-contain{float:left;color:#FFF;font-family:Kalos;font-size:12px;text-align:center;width:100%;text-shadow: 0px 1px #0A0A0A;}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #0A0A0A;
+  text-shadow: 0px 1px #333333;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #000000;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #000000;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #000000;
+}

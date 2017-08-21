@@ -9,7 +9,7 @@ app.use(ex.static('assets'));
 
 //Returns the index file when the site it visited.
 app.get('/',function(req,res){
-    res.sendFile(__dirname+'/htm/index.html');
+    res.sendFile(__dirname+'/htm/login.html');
 });
 
 //Handles incoming and outgoing connections to server.

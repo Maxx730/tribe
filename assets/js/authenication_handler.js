@@ -2,8 +2,20 @@
 var authentication_handler = function(){
     console.log("Initializing authentication handler...");
 
-    document.cookie = "uname=maxx730";
-    document.cookie = "pswrd=remote12";
+    //Check this if we are in the chat program already, if 
+    //the username and password cookie.
+    if(){
+
+    }else{
+        //Check the login for the user when they end their username and
+        //password, if success then set the cookie with a expire date as well
+        //as then forward them to the chat page.
+        if(this.check_database()){
+
+        }else{
+
+        }
+    }
 }
 
 //Checks if a cookie already exists for the user and then checks it against
@@ -33,4 +45,9 @@ authentication_handler.prototype.is_logged_in = function(){
     //Next we want to send a query to the database and check if the user exists
     //in the database as well as the password.
     return true;
+}
+
+//Function that will send an AJAX request to the tribe server to
+//check if the username and password is correct.
+authentication_handler.prototype.check_database = function(){
 }
